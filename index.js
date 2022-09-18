@@ -19,7 +19,7 @@ function profitorloss(){
     else{
         const loss = (CP-SP);
         const losspercentage = ((loss)*100/CP);
-        Outputvalue.innerText = `Congratulations 🍻 , You have made a loss of Rs ${loss} and The Loss Percent is ${losspercentage}%`;
+        Outputvalue.innerText = `You have made a loss of Rs ${loss} and The Loss Percent is ${losspercentage}%`;
     }
 }
 
